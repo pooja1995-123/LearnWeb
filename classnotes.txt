@@ -1,0 +1,17 @@
+echo "# LearnWeb" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+
+
+
+git config --global user.name "pooja1995-123" 
+
+git config --global user.email "patrapooja483@gmail.com"
+
+git remote add origin https://github.com/pooja1995-123/LearnWeb.git
+
+
+
+git push -u origin main
